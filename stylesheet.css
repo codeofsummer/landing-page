@@ -1,4 +1,51 @@
 body {
     display: flex;
     flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+ul {
+    padding:0
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    margin-right: 0;
+    gap: 16px;
+}
+.second {
+    display: flex;
+}
+
+img {
+        margin: 5px;
+        float: left;
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+      
 }
