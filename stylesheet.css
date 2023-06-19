@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    
+    font-family: "roboto", sans-serif;
+ 
 }
 
 .header {
@@ -10,6 +11,7 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
+    padding: 10px 350px;
 }
 
 .top {
@@ -68,6 +70,8 @@ a {
 .second {
     display: flex;
     flex-direction: column;
+    gap: 50px;
+    padding: 100px 400px;
 
 }
 
@@ -98,4 +102,31 @@ a {
 
 .info {
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: flex-end;
+    padding: 100px 400px;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.name {
+    font-weight: bold;
+
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    padding: 100px 100px;
+    border: white ;
 }
