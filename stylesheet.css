@@ -11,7 +11,11 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     font-size: 24px;
-    padding: 10px 350px;
+    padding: 10px 150px;
+}
+
+.logo{
+    align-self: center;
 }
 
 .top {
@@ -19,11 +23,15 @@ body {
     background-color: #1F2937;
     color: #f9faf8;
     justify-content: center;
+    gap: 100px;
+    padding: 100px;
 }
 
 .top-left {
     display: flex;
     flex-direction: column;
+    width: 350px;
+
 }
 
 .title {
@@ -34,7 +42,7 @@ body {
 
 .top > img {
     margin: 15px;
-    width: 300px;
+    width: 500px;
     height: auto;
 
 }
@@ -44,6 +52,9 @@ button {
     color: white;
     background-color: #3882F6 ;
     align-self: self-start;
+    width: 100px;
+    padding: 5px;
+    border: none;
   
 }
 ul {
@@ -71,7 +82,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 100px 400px;
+    padding: 100px;
 
 }
 
@@ -80,6 +91,7 @@ a {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+    
 }
 
 
@@ -109,7 +121,7 @@ a {
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: flex-end;
-    padding: 100px 400px;
+    padding: 100px 200px;
 }
 
 .words {
@@ -126,7 +138,44 @@ a {
 
 .call {
     display: flex;
-    background-color: #3882F6;
+    background-color: white;
     padding: 100px 100px;
-    border: white ;
+    color: #E5E7EB;
+    justify-content: center;
+}
+
+.call-text {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 5px;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.call-top {
+    font-weight:bolder;
+    font-size: 24px;
+}
+
+.call-left {
+    padding:0px 50px;
+}
+
+.call-text > button {
+    border: 1px solid white;
+    width: 100px;
+    padding: 5px
+
+}
+
+
+.footer {
+    background-color:#1F2937 ;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+
 }
